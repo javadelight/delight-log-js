@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module rename-to='logsjs'>
 	
-	<inherits name='org.javadelight.log.Logs' /> 
+	<inherits name='delight.log.Logs' /> 
 
 	<source path=''>
 		<exclude name="**/jre/**" />

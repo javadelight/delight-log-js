@@ -1,8 +1,8 @@
-package org.javadelight.log.js;
+package delight.log.js;
 
 import delight.async.properties.PropertyNode;
+import delight.log.LogsCommon;
 
-import org.javadelight.log.LogsCommon;
 import org.timepedia.exporter.client.Export;
 import org.timepedia.exporter.client.Exportable;
 import org.timepedia.exporter.client.NoExport;
