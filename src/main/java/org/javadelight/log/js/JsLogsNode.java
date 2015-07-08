@@ -2,11 +2,10 @@ package org.javadelight.log.js;
 
 import delight.async.properties.PropertyNode;
 
+import org.javadelight.log.LogsCommon;
 import org.timepedia.exporter.client.Export;
 import org.timepedia.exporter.client.Exportable;
 import org.timepedia.exporter.client.NoExport;
-
-import de.mxro.async.log.LogsCommon;
 
 @Export
 public class JsLogsNode implements Exportable {
