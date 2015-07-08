@@ -1,4 +1,4 @@
-package de.mxro.log.js;
+package org.javadelight.log.js;
 
 import delight.async.properties.PropertyNode;
 
