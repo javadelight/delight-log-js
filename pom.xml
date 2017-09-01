@@ -29,9 +29,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>de.mxro.thrd.gwtexporter250</groupId>
-			<artifactId>thrdGwtExporter250</artifactId>
-			<version>[0.0.1,)</version>
+			 <groupId>org.stellardb</groupId>
+    <artifactId>thrdGwtExporter250</artifactId>
+			<version>1.0.4-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
