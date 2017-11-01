@@ -2,28 +2,23 @@ package delight.log.js;
 
 import delight.async.properties.PropertyNode;
 import delight.log.LogsCommon;
+import jsinterop.annotations.JsType;
+	
 
-import org.timepedia.exporter.client.Export;
-import org.timepedia.exporter.client.Exportable;
-import org.timepedia.exporter.client.NoExport;
+@JsType public class JsLogsNode {
 
-@Export
-public class JsLogsNode implements Exportable {
-
-    @NoExport
+    @jsinterop.annotations.JsIgnore
     private PropertyNode node;
 
-    @Export
-    public String string(final String id, final String message) {
+    @delight.functional.annotations.ExportedElement public String string(final String id, final String message) {
         return this.node.record(LogsCommon.string(id, message)).get();
     }
 
-    @Export
-    public String render() {
+    @delight.functional.annotations.ExportedElement public String render() {
         return this.node.render().get();
     }
 
-    @NoExport
+    @jsinterop.annotations.JsIgnore
     public static final JsLogsNode wrap(final PropertyNode node) {
         final JsLogsNode jsLogsNode = new JsLogsNode();
 
